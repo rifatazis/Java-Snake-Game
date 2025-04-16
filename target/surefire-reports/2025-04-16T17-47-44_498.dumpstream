@@ -1,0 +1,5 @@
+# Created at 2025-04-16T17:47:44.979
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Kuliah\SEMESTER6\ST\tugas2\Java-Snake-Game\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

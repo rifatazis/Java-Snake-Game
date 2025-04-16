@@ -1,5 +1,6 @@
 package com.zetcode;
 
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -125,7 +126,7 @@ public class Board extends JPanel implements ActionListener {
         g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, B_HEIGHT / 2);
     }
 
-    private void checkApple() {
+    public void checkApple() {
 
         if ((x[0] == apple_x) && (y[0] == apple_y)) {
 
@@ -188,7 +189,7 @@ public class Board extends JPanel implements ActionListener {
         }
     }
 
-    private void locateApple() {
+    public void locateApple() {
 
         int r = (int) (Math.random() * RAND_POS);
         apple_x = ((r * DOT_SIZE));
